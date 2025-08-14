@@ -12,6 +12,7 @@ color: AppColors.black
 
 
 
+
 );
 static TextStyle font32blueSimiBold = TextStyle(
 
