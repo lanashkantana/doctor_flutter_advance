@@ -14,6 +14,7 @@ class DoctorImageText extends StatelessWidget {
       children: [
         SvgPicture.asset('assets/svgs/docdoc_logo_low_opacity.svg'),
     
+    
         Container(
           foregroundDecoration: BoxDecoration(
             gradient: LinearGradient(
