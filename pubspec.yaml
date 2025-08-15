@@ -2,19 +2,18 @@ name: p1
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
 environment:
   sdk: ^3.7.2
 
-
 dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.6
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.2.0
 
@@ -24,8 +23,6 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
- 
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
