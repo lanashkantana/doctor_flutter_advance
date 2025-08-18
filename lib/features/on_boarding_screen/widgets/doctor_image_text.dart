@@ -11,9 +11,10 @@ class DoctorImageText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
+      alignment: Alignment.topCenter,
+      
       children: [
         SvgPicture.asset('assets/svgs/docdoc_logo_low_opacity.svg'),
-    
     
         Container(
           foregroundDecoration: BoxDecoration(
@@ -21,6 +22,7 @@ class DoctorImageText extends StatelessWidget {
               colors: [
                 Colors.white,
                 Colors.white.withValues(alpha: 0.0),
+                // اذا حطينا transparent لح يصير لون ماحلو
               ],
     
               begin: Alignment.bottomCenter,
