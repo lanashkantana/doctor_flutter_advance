@@ -24,7 +24,6 @@ class DocApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         onGenerateRoute: appRouter.generateRoute,
       ),
-      
     );
   }
 }
